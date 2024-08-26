@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.heading{
+    margin: 0 0 30px;
+    color: #fff;
+    background: #191818;
+    padding: 10px;
+    box-shadow: rgb(32 19 19 / 68%) 0px 3px 8px;
+}
+.flex{
+    display: flex;
+}
+.item-center{
+    justify-content: center;
+}
+.direction-column{
+    flex-direction: column;
+}
+.row button{
+    padding: 15px 0;
+    width: 52px;
+    border: 1px solid #b9b9b9;
+    border-radius: 6px;
+    margin: 5px;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container .contBorder{
+    width: 248px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0.5px solid #cbc6c6; 
+    padding: 5px;  
+    border-radius: 6px;
+    /*background: #322f2ff2; */
+}
+.inputArea .field{
+    width: 215px;
+    padding: 20px 10px;
+    margin: 3px 0;
+    border: 0.5px solid #b9b9b9;
+    border-radius: 3px;
+    font-size: xx-large;
+}
+.equal{
+    background: orange;
+}
+.clear{
+    background: #ff0000cc;
+    border-color: #ff0000cc;
+    color: #fff;
+}
+.c{
+    background: #488ceee8;
+    color: #fff;
+}
+.doubleZero{
+    background: aliceblue;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inputArea .field:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
